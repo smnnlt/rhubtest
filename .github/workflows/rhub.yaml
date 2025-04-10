@@ -56,7 +56,7 @@ jobs:
         with:
           token: ${{ secrets.RHUB_TOKEN }}
           job-config: ${{ matrix.config.job-config }}
-      - uses: smnnlt/actions/setup-deps@v2
+      - uses: smnnlt/actions/setup-deps@f668eddeddb7abc3c4e995a6ea02c6d328b0fd6c
         with:
           token: ${{ secrets.RHUB_TOKEN }}
           job-config: ${{ matrix.config.job-config }}
